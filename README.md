@@ -22,7 +22,7 @@ The Gaussian distribution is defined by two parameters: the mean ($\mu$) and the
 The standard normal cumulative distribution function $\phi(x)$ represents the probability that a standard normal random variable is less than or equal to $x$. It is defined as:
 
 $$
-\phi(x) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{x} e^{-\frac{t^2}{2}} dt
+\phi(x) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{x} e^{-\frac{x^2}{2}} dx
 $$
 
 Where:
